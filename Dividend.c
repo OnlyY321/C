@@ -8,6 +8,7 @@ int divide_p(int dividend, int divisor, int *quotient, int *rem)
     }
     *quotient = dividend / divisor;
     *rem = dividend % divisor;
+    return 0;
 }
 
 int main()
